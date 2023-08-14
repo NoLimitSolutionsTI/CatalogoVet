@@ -1,0 +1,136 @@
+:root{
+    --color1: #FFDB5C;
+    --color2: #ffffff;
+    --color3: #1F4905;
+    --color4: #B79727;
+    --color5: #C0602A;
+    --color6: #402807;
+}
+
+
+    /* FILTROS */
+    .container-filter{ 
+        font-family: 'Newsreader';
+        display: flex;
+        position: relative;
+        top: 3em;
+    }
+
+    .filter{
+        width: 100%;
+        gap: 2em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .filter li { 
+        background-color: var(--color5);
+        border-radius: .2em;
+        list-style: none;
+    }
+    .filter li a{
+        display: flex;
+        font-size: 1.3em;
+        text-decoration: none !important;
+        color: var(--color2);
+        padding: .1em 10vh;
+    }
+
+    .filter li:hover{
+        background-color: var(--color6);
+        transition: .3s ease-in;
+    }
+
+    .filter li a:hover{
+        color: var(--color2);
+        transition: .35s ease-in;
+    }
+
+    .filter-active{
+        color: var(--color2) !important;
+        background-color: var(--color5);
+    }
+
+/* LISTA DE PRODUCTOS EN CUADRICULA */
+
+  .container-items{
+    font-family: 'Newsreader';
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 40px;
+    grid-auto-rows: min-content;
+    justify-items: center;
+    margin-top: 8em;
+  }
+
+.item{
+    background-color: var(--color2);
+    width: 320px;
+    text-align: center;
+    box-shadow: 4px 4px 12px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 2em;
+    transition: all .4s ease;
+}
+
+.item img{    
+    max-width: 100%;
+    height: 270px;
+    border-radius: 10px 10px 0 0;
+    padding: 0em .5em;
+    transition: all .5s;
+}
+
+.item img:hover{
+    overflow: hidden;
+    transform: scale(1.2);
+}
+
+
+.info-product{
+    background-color: var(--color1);
+    padding: 1.4em 3em;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+
+.title{
+    text-transform: uppercase;
+    color: var(--color3);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.description{
+    font-weight: bold;
+    font-weight: bold;
+    color: black;
+    font-size: 1.15em;
+    margin-top: -1em;
+}
+
+.info-product button{
+    border: none;
+    background-color: var(--color4);
+    color: var(--color2);
+    margin: auto;
+    border-radius: .2em;
+    margin-top: -.9em;
+    margin-bottom: .2em;
+    padding: 0em 1.5em;
+    font-size: 1.2em;
+    text-align: center;
+    justify-content: center;
+}
+
+.info-product button:hover{
+    background-color: var(--color5);
+    color: var(--color2);
+    transition: .8s ease;
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+/*HEADER */
+@import url('./header.css');
+/* Detalles */
+@import url('./detalle.css');
+
+:root
+{
+    --FontHomepageItems: 14px;
+    --FontDetailPage: 16px;
+    --Icons: 18px;
+    --BoxShadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+    --BoxShadowInputs: 0px 0px 10px 0px rgba(0,0,0,.1);
+    --Radius: 5px;
+
+}
+body.Show
+{
+    overflow-y: hidden;
+}

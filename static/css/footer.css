@@ -1,0 +1,10 @@
+:root{
+    --color1: #9EC02A;
+}
+
+.footer{
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-color: var(--color1);
+}
