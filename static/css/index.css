@@ -1,7 +1,13 @@
 /*HEADER */
 @import url('./header.css');
+/* Productos */
+@import url('./productos.css');
 /* Detalles */
 @import url('./detalle.css');
+/* About */
+@import url('./about.css');
+/* Footer */
+@import url('./footer.css');
 
 :root
 {

@@ -1,5 +1,5 @@
 :root{
-    --color1: #FFDB5C;
+    --color7: #FFDB5C;
     --color2: #ffffff;
     --color3: #1F4905;
     --color4: #B79727;
@@ -52,13 +52,19 @@
 
     .filter-active{
         color: var(--color2) !important;
-        background-color: var(--color5);
+        background-color: var(--color6);
     }
 
 /* LISTA DE PRODUCTOS EN CUADRICULA */
 
+    .section-p{
+        justify-content: center;
+        align-items: center;
+    }
   .container-items{
     font-family: 'Newsreader';
+    margin: auto;
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 40px;
@@ -67,9 +73,18 @@
     margin-top: 8em;
   }
 
+    /* Centrar la última fila */
+    .container-items:after {
+        content: "";
+        grid-column: span calc(minmax(350px, 1fr)); /* O el número de tarjetas por fila */
+    }
+    
+
+
+
 .item{
     background-color: var(--color2);
-    width: 320px;
+    width: 350px;
     text-align: center;
     box-shadow: 4px 4px 12px 4px rgba(0, 0, 0, 0.3);
     margin-bottom: 2em;
@@ -91,7 +106,7 @@
 
 
 .info-product{
-    background-color: var(--color1);
+    background-color: var(--color7);
     padding: 1.4em 3em;
     display: flex;
     flex-direction: column;

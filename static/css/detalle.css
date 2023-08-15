@@ -19,9 +19,8 @@
     display: none;
     position: relative;
     top: 0;
-    height: 90%;
-    width: 85%;
-    padding: 20px 100px;
+    width: 100%;
+    padding: 20px 10px;
     overflow: auto;
     margin: auto;
     background: var(--BackgroundColor);
@@ -46,8 +45,10 @@
 .producto-container-detail{
     margin: 75px 0;
     height: auto;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 40px;
+    grid-auto-rows: min-content;
     align-items: center;
 }
 .image-figure-detail{
@@ -61,7 +62,7 @@
 .producto-detail-text{
     grid-column: span 1;
     min-height: 400px;
-    width: 70%;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -97,11 +98,11 @@
     text-align: right;
     color: #C0602A;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
 }
 .producto-detail-text-dataproduct * b{
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
     text-align: left;
     color: #000;
 }/* 

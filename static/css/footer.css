@@ -1,10 +1,28 @@
-:root{
-    --color1: #9EC02A;
+
+.footer-container{
+    margin-top: 3vh;
+    width: 100%;
+    background: #9EC02A;
+    overflow: hidden;
 }
 
 .footer{
     display: flex;
-    position: relative;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
     width: 100%;
-    background-color: var(--color1);
+    font-family: 'Newsreader', serif;
+    color: #fff;
+}
+.footer p{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 3vh;
+}
+.footer img{
+    width: 15%;
+    padding: 1.5vh 0vh 0vh 0vh;
+    mix-blend-mode: lighten;
 }
