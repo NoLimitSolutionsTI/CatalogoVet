@@ -24,7 +24,7 @@ header .logo-img{
 header .logo-img img{
     margin: auto;
     display: flex;
-    max-width: 18vh;
+    max-width: 7em;
 }
 header .logo-img .title{
     justify-content: end;
@@ -35,7 +35,7 @@ header .logo-img .title{
 header .logo-img .title h2{
     text-align: left;
     margin: 0;
-    font-size: 4vh;
+    font-size: 1.3em;
     text-transform:uppercase;
     font-weight: bold;
     color: #402807;
@@ -45,7 +45,7 @@ header .logo-img .title p{
     text-align: left;
     text-transform: none;
     margin: 0;
-    font-size: 3.5vh;
+    font-size: .9em;
     font-weight: 700;
     color: #C0602A;
 }
