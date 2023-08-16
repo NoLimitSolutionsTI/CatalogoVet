@@ -29,8 +29,12 @@
         </div>
     </header>
 
-    <main>       
+    <main>
+        <br>
         <section class="section-p">
+            <form>
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar" onkeyup="search()" >
+            </form>
             <div class="container-filter">
                 <ul class="filter">
                     <li><a href="#" class="filter-item" category="all">Ver todos</a></li>
@@ -40,7 +44,7 @@
                 </ul>
             </div>
 
-            <div class="container-items">
+            <div class="container-items" id="grid">
                 <div class="item" category="todas-especies">
                     <img class="img-product" src="static/images/Productos/LiverTonic.jpg" alt="LiverTonic" />
                     <div class="info-product">
@@ -125,7 +129,7 @@
                 <div class="item" category="todas-especies">
                     <img class="img-product" src="static/images/Productos/Coriotox.png" alt="Coriocox" />
                     <div class="info-product">
-                        <h2 class="title">Coriocox</h2>
+                        <h2 class="title">Coriotox</h2>
                         <p class="description">Secuestrante de microtoxinas</p>
                         <button class="btn-watch btn-10">Ver más</button>
                     </div>
@@ -164,6 +168,10 @@
                                     <b>Conservación:</b>
                                     Mantengase en un lugar fresco, seco, bien ventilado.
                                 </p>
+                                <p>
+                                    <a href="" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
+                                    <a href="./static/products/TDS - Corion Liver Tonic (ESP) v2023 (1).pdf" target="_blank"><button class="btn-cont-inf">Más Información</button></a>
+                                </p>
                             </span>
                         </div>
                     </div>
@@ -199,6 +207,10 @@
                             <p>
                                 <b>Conservación:</b>
                                 Mantengase en un lugar fresco, seco, bien ventilado.
+                            </p>
+                            <p>
+                                <a href="" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
+                                <a href="./static/products/TDS - Corion  Coriocox FM (ESP) 2023.pdf" target="_blank"><button class="btn-cont-inf">Más Información</button></a>
                             </p>
                         </span>
                     </div>
@@ -236,6 +248,10 @@
                                 <b>Conservación:</b>
                                 Mantengase en un lugar fresco, seco, bien ventilado.
                             </p>
+                            <p>
+                                <a href="" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
+                                <a href="./static/products/TDS - Corion Calphocor (ESP) v2023.pdf" target="_blank"><button class="btn-cont-inf">Más Información</button></a>
+                            </p>
                         </span>
                     </div>
                 </div>
@@ -271,6 +287,10 @@
                             <p>
                                 <b>Conservación:</b>
                                 Mantengase en un lugar fresco, seco, bien ventilado.
+                            </p>
+                            <p>
+                                <a href="" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
+                                <a href="./static/products/TDS - Corion  Coriocox L (ESP) v2023.pdf" target="_blank"><button class="btn-cont-inf">Más Información</button></a>
                             </p>
                         </span>
                     </div>
@@ -308,6 +328,10 @@
                                 <b>Conservación:</b>
                                 Mantengase en un lugar seco, limpio, bien ventilado.
                             </p>
+                            <p>
+                                <a href="" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
+                                <a href="./static/products/TDS - Corion Coriofung (ESP)  2023.pdf" target="_blank"><button class="btn-cont-inf">Más Información</button></a>
+                            </p>
                         </span>
                     </div>
                 </div>
@@ -343,6 +367,10 @@
                             <p>
                                 <b>Conservación:</b>
                                 Mantengase en un lugar fresco, seco, bien ventilado.
+                            </p>
+                            <p>
+                                <a href="" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
+                                <a href="./static/products/TDS-Corion Hepatocor (ESP) v2023.pdf" target="_blank"><button class="btn-cont-inf">Más Información</button></a>
                             </p>
                         </span>
                     </div>
@@ -380,6 +408,10 @@
                                 <b>Conservación:</b>
                                 Mantengase en un lugar fresco, seco, bien ventilado.
                             </p>
+                            <p>
+                                <a href="" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
+                                <a href="./static/products/TDS- Corion Suin Protect (ESP) v2023.pdf" target="_blank"><button class="btn-cont-inf">Más Información</button></a>
+                            </p>
                         </span>
                     </div>
                 </div>
@@ -415,6 +447,10 @@
                             <p>
                                 <b>Conservación:</b>
                                 Mantengase en un lugar seco, limpio, bien ventilado.
+                            </p>
+                            <p>
+                                <a href="" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
+                                <a href="./static/products/TDS - Corion Toxicor (ESP) v2023.pdf" target="_blank"><button class="btn-cont-inf">Más Información</button></a>
                             </p>
                         </span>
                     </div>
@@ -452,6 +488,10 @@
                                 <b>Conservación:</b>
                                 Mantengase en un lugar fresco, seco, bien ventilado.
                             </p>
+                            <p>
+                                <a href="" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
+                                <a href="./static/products/TDS - Corion  Vitasitol (ESP) v2023.pdf" target="_blank"><button class="btn-cont-inf">Más Información</button></a>
+                            </p>
                         </span>
                     </div>
                 </div>
@@ -459,7 +499,7 @@
         </section>
 
         <section class="ficha-detail producto10">
-            <button class="boton-back-detail btnretro-10" onclick="hiddeProductSelected()">
+            <button class="boton-back-detail btnretro-10">
                 Retroceder
             </button>
             <article class="producto-container-detail">
@@ -468,7 +508,7 @@
                 </figure>
                 <div class="producto-detail-text">
                     <div class="producto-detail-text-name-contain">
-                        <h1 class="producto-detail-text-name">Coriocox</h1>
+                        <h1 class="producto-detail-text-name">Coriotox</h1>
                     </div>
                     <div class="producto-detail-text-data">
                         <span class="producto-detail-text-dataproduct">
@@ -487,6 +527,10 @@
                             <p>
                                 <b>Conservación:</b>
                                 Mantengase en un lugar seco, limpio, bien ventilado.
+                            </p>
+                            <p>
+                                <a href="" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
+                                <a href="./static/products/TDS - Corion Coriotox (ESP) 2023.pdf" target="_blank"><button class="btn-cont-inf">Más Información</button></a>
                             </p>
                         </span>
                     </div>
@@ -518,6 +562,7 @@
     
     <script src="./static/js/jquery.js"></script>
     <script src="./static/js/filter.js"></script>
+    <script src="./static/js/search.js"></script>
     <script src="./static/js/showdetails.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>

@@ -99,10 +99,7 @@
     transition: all .5s;
 }
 
-.item img:hover{
-    overflow: hidden;
-    transform: scale(1.2);
-}
+
 
 
 .info-product{

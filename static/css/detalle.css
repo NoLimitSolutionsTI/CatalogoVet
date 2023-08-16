@@ -20,8 +20,7 @@
     position: relative;
     top: 0;
     width: 100%;
-    padding: 20px 10px;
-    overflow: auto;
+    height: auto;
     margin: auto;
     background: var(--BackgroundColor);
     z-index: 1000;
@@ -40,48 +39,52 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    margin: 2em;
 }
 .producto-container-detail{
-    margin: 75px 0;
+    margin: 25px 0;
     height: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-gap: 40px;
     grid-auto-rows: min-content;
-    align-items: center;
 }
 .image-figure-detail{
     grid-column: span 1;
     height: 500px;
+    width: 90%;
+    margin: auto;
 }
 .image-figure-detail-producto{
-    width: 100%;
+    margin: auto;
+    display: flex;
+    max-width: 90%;
     height: 100%;
 }
 .producto-detail-text{
+    top: 0;
     grid-column: span 1;
-    min-height: 400px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
+    height: 500px;
+    width: 95%;
+    margin: auto;
+    display: grid;
+    align-items: center;
     justify-content: center;
-    gap: 50px;
-    padding: 0vh 5vh;
 }
 .producto-detail-text-name-contain{
     width: 100%;
     margin: auto;
     background: #402807;
+    padding: .5em 5vh;
     color: #FFDB5C;
 }
 .producto-detail-text-name{
     font-size: 35px;
+    margin: auto;
     font-weight: 800;
     text-align: center;
 }
 .producto-detail-text-data{
+    padding: .5em 5vh;
     display: flex;
     justify-content: space-between;
 }
@@ -89,8 +92,16 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 95%;
+    width: 100%;
 }
+.producto-detail-text-dataproduct * b{
+    font-weight: 600;
+    font-size: 1.1em;
+    text-align: left;
+    width: 60%;
+    color: #000;
+}
+
 .producto-detail-text-dataproduct p{
     display: flex;
     flex-direction: row;
@@ -98,15 +109,138 @@
     text-align: right;
     color: #C0602A;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.5em;
 }
-.producto-detail-text-dataproduct * b{
+.btn-cont-inf{
+    background: #FFDB5C; 
+    color: #1F4905;
+    border: none;
+    box-shadow: var(--BoxShadowInputs);
+    border-radius: var(--Radius);
     font-weight: 600;
-    font-size: 20px;
-    text-align: left;
-    color: #000;
-}/* 
+    font-family: 'Newsreader', serif;
+    width: 140px;
+    height: 40px;
+    font-size: 15px;
+}
+.btn-cont-inf:hover{
+    background: #e6be2f;
+}
+/* 
 body.Show .ficha-detail{
     transform: scale(1);
     opacity: 1;
 } */
+
+@media screen and (max-width:1320px){
+    
+.image-figure-detail{
+    grid-column: span 1;
+    height: 100%;
+    min-height: 70%;
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.image-figure-detail-producto{
+    margin: auto;
+    display: flex;
+    max-width: 90%;
+    height: auto;
+}
+
+.producto-detail-text-name{
+    font-size: 28px;
+}
+
+.producto-detail-text{
+    top: 0;
+    grid-column: span 1;
+    height: 80%;
+    min-height: 70%;
+    width: 95%;
+    display: grid;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.producto-detail-text-name-contain{
+    max-width: 100%;
+    margin: auto;
+    background: #402807;
+    padding: .5em 5vh;
+    color: #FFDB5C;
+}
+
+.producto-detail-text-dataproduct * b{
+    font-size: .9em;
+    text-align: left;
+    width: 80%;
+    color: #000;
+}
+
+.producto-detail-text-dataproduct p{
+    font-size: 1.2em;
+}
+}
+
+
+@media screen and (max-width:990px){
+    .producto-detail-text-name{
+        font-size: 25px;
+    }
+
+    
+    .producto-detail-text-dataproduct * b{
+        font-size: .85em;
+        text-align: left;
+        width: 90%;
+        color: #000;
+    }
+    
+    .producto-detail-text-dataproduct p{
+        font-size: 1.1em;
+    }
+}
+    
+
+@media screen and (max-width:700px){
+
+
+    .producto-detail-text-name{
+        font-size: 25px;
+    }
+
+    
+    .producto-detail-text-dataproduct * b{
+        font-size: .85em;
+        text-align: left;
+        width: 90%;
+        color: #000;
+    }
+    
+    .producto-detail-text-dataproduct p{
+        font-size: 1.1em;
+    }
+}
+
+
+@media screen and (max-width:420px){
+
+    .producto-detail-text-dataproduct * b{
+        font-size: .85em;
+        text-align: left;
+        width: 100%;
+        display: block;
+        text-align: center;
+        color: #000;
+    }
+    
+    .producto-detail-text-dataproduct p{
+        width: 100%;
+        font-size: 1.1em;
+        display: block;
+        text-align: center;
+    }
+}

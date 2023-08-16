@@ -1,5 +1,7 @@
 /*HEADER */
 @import url('./header.css');
+/* Busqueda */
+@import url('./search.css');
 /* Productos */
 @import url('./productos.css');
 /* Detalles */
