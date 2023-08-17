@@ -28,6 +28,7 @@
     }
 
     .filter li { 
+        margin: auto;
         background-color: var(--color5);
         border-radius: .2em;
         list-style: none;
@@ -55,6 +56,31 @@
         background-color: var(--color6);
     }
 
+    .filter-rp{
+        display: none;
+    }
+    @media screen and (max-width:720px){
+
+    .filter-rp{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .filter-rp p{
+        font-size: 1.8em;
+        color: black;
+        margin: auto;
+    }
+    .filter-rp i{
+        font-size: 3.5em;
+        color: #F69906;
+        margin: auto;
+    }
+    .filter{
+        display: none;
+    }
+    }
 /* LISTA DE PRODUCTOS EN CUADRICULA */
 
     .section-p{
