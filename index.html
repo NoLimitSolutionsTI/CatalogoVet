@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Catalogo de productos para veterinaria tras su distribuidor ANLUVET">
+    <meta name="description" content="Catalogo de productos para veterinaria importados desde una distribuidora española, y comercializado en el Perú por la empresa ANLUVET">
     <link rel="shortcut icon" href="static/images/Logo/Anluvet-logo.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/812c8ee19a.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="img/favicon.ico" />
@@ -16,12 +16,12 @@
     
     <title>Catalogo ANLUVET</title>
 </head>
-<body>
+<body class="cuerpo">
 
 
-    <header>
+    <header class="header">
         <div class="logo-img">
-            <img src="static/images/Logo/Anluvet-logo.png" alt="">
+            <img src="static/images/Logo/Anluvet-logo.png" alt="Anluvet">
 
             <div class="title">
                 <h2>Anluvet</h2>
@@ -30,7 +30,7 @@
         </div>
     </header>
 
-    <main>
+    <main class="main">
         <br>
         <section class="section-p">
             <form>
@@ -43,7 +43,9 @@
             <div class="container-filter">
                 <div class="filter-rp">
                     <p>Filtrar por:</p>
-                    <i class="fa-solid fa-bars"></i>
+                    <a class="btn-menu">
+                    <i class="icono-menu fa-solid fa-bars"></i>
+                    </a>
                 </div>
                 <ul class="filter">
                     <li><a href="#" class="filter-item" category="all">Ver todos</a></li>
@@ -558,7 +560,7 @@
                 Nuestra Visión es ser socios estratégicos de nuestros clientes.</p>
             </div>
             <div class="about-img">
-                <img src="./static/images/Logo/Anluvet.png" alt="Anluvet equipo">
+                <img src="./static/images/Logo/Anluvet.png" alt="Anluvet">
         </div>
         </div>
     </div>
@@ -576,6 +578,7 @@
     
     <script src="./static/js/jquery.js"></script>
     <script src="./static/js/filter.js"></script>
+    <script src="./static/js/filterflex.js"></script>
     <script src="./static/js/search.js"></script>
     <script src="./static/js/showdetails.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>

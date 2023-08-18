@@ -21,6 +21,7 @@ header .logo-img img{
     margin: auto;
     display: flex;
     max-width: 7em;
+    mix-blend-mode: darken;
 }
 header .logo-img .title{
     justify-content: end;

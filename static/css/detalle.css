@@ -7,12 +7,6 @@
     --BoxShadowInputs: 0px 0px 10px 0px rgba(0,0,0,.1);
     --Radius: 5px;
 
-    /* LIGHT MODE */
-    --BackgroundColor: hsl(0, 0%, 98%); 
-    --BackgroundElements: white;
-    --Text: hsl(200, 15%, 8%);
-    --Input: hsl(0, 0%, 52%);
-
 }
 .ficha-detail{
     font-family: 'Newsreader', serif;
@@ -24,7 +18,9 @@
     margin: auto;
     background: var(--BackgroundColor);
     z-index: 1000;
+    
 }
+
 
 .boton-back-detail{
     width: 140px;
@@ -242,5 +238,10 @@ body.Show .ficha-detail{
         font-size: 1.1em;
         display: block;
         text-align: center;
+    }
+}
+@media screen and (max-width:390px){
+    .btn-cont-inf{
+        margin: 0.5em;
     }
 }

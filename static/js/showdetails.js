@@ -6,18 +6,21 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnback = document.querySelector('.btnretro-1');
     const secprod= document.querySelector('.section-p');
     const about= document.querySelector('.about-container');
+    const main = document.querySelector('.main');
 
     btnWatchList.forEach(btnWatch => {
         btnWatch.addEventListener('click', function() {
-            fichaDetail.style.display = 'block';
             secprod.style.display = 'none';
             about.style.display = 'none'
+            fichaDetail.style.display = 'block';
+            main.style.animation = '0.75s ease-in wipe-in-down';
         });
     });
     btnback.addEventListener('click', function(){
         fichaDetail.style.display = 'none';
         secprod.style.display = 'block';
-        about.style.display = 'block'
+        about.style.display = 'block';
+        main.style.animation = '0.75s ease-in-out wipe-in-up';
 });
 });
 
@@ -30,18 +33,21 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnback = document.querySelector('.btnretro-2');
     const secprod= document.querySelector('.section-p');
     const about= document.querySelector('.about-container');
+    const main = document.querySelector('.main');
 
     btnWatchList.forEach(btnWatch => {
         btnWatch.addEventListener('click', function() {
-            fichaDetail.style.display = 'block';
             secprod.style.display = 'none';
             about.style.display = 'none'
+            fichaDetail.style.display = 'block';
+            main.style.animation = '0.75s ease-in wipe-in-down';
         });
     });
     btnback.addEventListener('click', function(){
         fichaDetail.style.display = 'none';
         secprod.style.display = 'block';
-        about.style.display = 'block'
+        about.style.display = 'block';
+        main.style.animation = '0.75s ease-in-out wipe-in-up';
 });
 });
 
@@ -53,18 +59,21 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnback = document.querySelector('.btnretro-3');
     const secprod= document.querySelector('.section-p');
     const about= document.querySelector('.about-container');
+    const main = document.querySelector('.main');
 
     btnWatchList.forEach(btnWatch => {
         btnWatch.addEventListener('click', function() {
-            fichaDetail.style.display = 'block';
             secprod.style.display = 'none';
             about.style.display = 'none'
+            fichaDetail.style.display = 'block';
+            main.style.animation = '0.75s ease-in wipe-in-down';
         });
     });
     btnback.addEventListener('click', function(){
         fichaDetail.style.display = 'none';
         secprod.style.display = 'block';
-        about.style.display = 'block'
+        about.style.display = 'block';
+        main.style.animation = '0.75s ease-in-out wipe-in-up';
 });
 });
 
@@ -77,18 +86,21 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnback = document.querySelector('.btnretro-4');
     const secprod= document.querySelector('.section-p');
     const about= document.querySelector('.about-container');
+    const main = document.querySelector('.main');
 
     btnWatchList.forEach(btnWatch => {
         btnWatch.addEventListener('click', function() {
-            fichaDetail.style.display = 'block';
             secprod.style.display = 'none';
             about.style.display = 'none'
+            fichaDetail.style.display = 'block';
+            main.style.animation = '0.75s ease-in wipe-in-down';
         });
     });
     btnback.addEventListener('click', function(){
         fichaDetail.style.display = 'none';
         secprod.style.display = 'block';
-        about.style.display = 'block'
+        about.style.display = 'block';
+        main.style.animation = '0.75s ease-in-out wipe-in-up';
 });
 });
 
@@ -101,18 +113,21 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnback = document.querySelector('.btnretro-5');
     const secprod= document.querySelector('.section-p');
     const about= document.querySelector('.about-container');
+    const main = document.querySelector('.main');
 
     btnWatchList.forEach(btnWatch => {
         btnWatch.addEventListener('click', function() {
-            fichaDetail.style.display = 'block';
             secprod.style.display = 'none';
             about.style.display = 'none'
+            fichaDetail.style.display = 'block';
+            main.style.animation = '0.75s ease-in wipe-in-down';
         });
     });
     btnback.addEventListener('click', function(){
         fichaDetail.style.display = 'none';
         secprod.style.display = 'block';
-        about.style.display = 'block'
+        about.style.display = 'block';
+        main.style.animation = '0.75s ease-in-out wipe-in-up';
 });
 });
 
@@ -125,18 +140,21 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnback = document.querySelector('.btnretro-6');
     const secprod= document.querySelector('.section-p');
     const about= document.querySelector('.about-container');
+    const main = document.querySelector('.main');
 
     btnWatchList.forEach(btnWatch => {
         btnWatch.addEventListener('click', function() {
-            fichaDetail.style.display = 'block';
             secprod.style.display = 'none';
             about.style.display = 'none'
+            fichaDetail.style.display = 'block';
+            main.style.animation = '0.75s ease-in wipe-in-down';
         });
     });
     btnback.addEventListener('click', function(){
         fichaDetail.style.display = 'none';
         secprod.style.display = 'block';
-        about.style.display = 'block'
+        about.style.display = 'block';
+        main.style.animation = '0.75s ease-in-out wipe-in-up';
 });
 });
 
@@ -150,18 +168,21 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnback = document.querySelector('.btnretro-7');
     const secprod= document.querySelector('.section-p');
     const about= document.querySelector('.about-container');
+    const main = document.querySelector('.main');
 
     btnWatchList.forEach(btnWatch => {
         btnWatch.addEventListener('click', function() {
-            fichaDetail.style.display = 'block';
             secprod.style.display = 'none';
             about.style.display = 'none'
+            fichaDetail.style.display = 'block';
+            main.style.animation = '0.75s ease-in wipe-in-down';
         });
     });
     btnback.addEventListener('click', function(){
         fichaDetail.style.display = 'none';
         secprod.style.display = 'block';
-        about.style.display = 'block'
+        about.style.display = 'block';
+        main.style.animation = '0.75s ease-in-out wipe-in-up';
 });
 });
 
@@ -174,18 +195,21 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnback = document.querySelector('.btnretro-8');
     const secprod= document.querySelector('.section-p');
     const about= document.querySelector('.about-container');
+    const main = document.querySelector('.main');
 
     btnWatchList.forEach(btnWatch => {
         btnWatch.addEventListener('click', function() {
-            fichaDetail.style.display = 'block';
             secprod.style.display = 'none';
             about.style.display = 'none'
+            fichaDetail.style.display = 'block';
+            main.style.animation = '0.75s ease-in wipe-in-down';
         });
     });
     btnback.addEventListener('click', function(){
         fichaDetail.style.display = 'none';
         secprod.style.display = 'block';
-        about.style.display = 'block'
+        about.style.display = 'block';
+        main.style.animation = '0.75s ease-in-out wipe-in-up';
 });
 });
 
@@ -198,18 +222,21 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnback = document.querySelector('.btnretro-9');
     const secprod= document.querySelector('.section-p');
     const about= document.querySelector('.about-container');
+    const main = document.querySelector('.main');
 
     btnWatchList.forEach(btnWatch => {
         btnWatch.addEventListener('click', function() {
-            fichaDetail.style.display = 'block';
             secprod.style.display = 'none';
             about.style.display = 'none'
+            fichaDetail.style.display = 'block';
+            main.style.animation = '0.75s ease-in wipe-in-down';
         });
     });
     btnback.addEventListener('click', function(){
         fichaDetail.style.display = 'none';
         secprod.style.display = 'block';
-        about.style.display = 'block'
+        about.style.display = 'block';
+        main.style.animation = '0.75s ease-in-out wipe-in-up';
 });
 });
 
@@ -222,17 +249,20 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnback = document.querySelector('.btnretro-10');
     const secprod= document.querySelector('.section-p');
     const about= document.querySelector('.about-container');
+    const main = document.querySelector('.main');
 
     btnWatchList.forEach(btnWatch => {
         btnWatch.addEventListener('click', function() {
-            fichaDetail.style.display = 'block';
             secprod.style.display = 'none';
             about.style.display = 'none'
+            fichaDetail.style.display = 'block';
+            main.style.animation = '0.75s ease-in wipe-in-down';
         });
     });
     btnback.addEventListener('click', function(){
         fichaDetail.style.display = 'none';
         secprod.style.display = 'block';
-        about.style.display = 'block'
+        about.style.display = 'block';
+        main.style.animation = '0.75s ease-in-out wipe-in-up';
 });
 });

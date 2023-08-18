@@ -21,6 +21,9 @@
     --Radius: 5px;
 
 }
+.body{
+    overflow: hidden;
+}
 body.Show
 {
     overflow-y: hidden;

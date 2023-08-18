@@ -28,7 +28,6 @@
     }
 
     .filter li { 
-        margin: auto;
         background-color: var(--color5);
         border-radius: .2em;
         list-style: none;
@@ -65,6 +64,9 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
+        margin-bottom: 1em;
+    }
+    .btn-menu{
         margin: auto;
     }
     .filter-rp p{
@@ -73,13 +75,39 @@
         margin: auto;
     }
     .filter-rp i{
-        font-size: 3.5em;
+        font-size: 3em;
         color: #F69906;
         margin: auto;
     }
-    .filter{
-        display: none;
+
+    .container-filter{
+        display: grid;
     }
+
+    .filter{
+        display: grid;
+        text-align: center;
+        width: 90%;
+        left: 10%;
+        gap: .5em;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: auto;
+        padding-left: 0em;
+    }
+    .filter li { 
+        background-color: transparent;
+    }
+
+    .filter li a{
+        color: var(--color5);
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 1px 9px;
+        padding-right: 2.9em;
+    }
+
     }
 /* LISTA DE PRODUCTOS EN CUADRICULA */
 
@@ -123,7 +151,7 @@
 
 .info-product{
     background-color: var(--color7);
-    padding: 1.4em 3em;
+    padding: 1.4em 0em;
     display: flex;
     flex-direction: column;
     gap: .5em;
@@ -166,7 +194,31 @@
     cursor: pointer;
 }
 
-@media screen and (min-width:1200) and (max-width:1500px) {
+@keyframes wipe-in-down {
+    from {
+        clip-path: inset(0 0 100% 0);
+        background-color: initial;
+    }
+    to {
+        clip-path: inset(0 0 0 0);
+        background-color: var(--color2);
+    }
+}
+
+@keyframes wipe-in-up {
+    from {
+      clip-path: inset(100% 0 0 0);
+      background-color: initial;
+    }
+    to {
+      clip-path: inset(0 0 0 0);
+      background-color: var(--color2);
+    }
+  }
+
+
+
+@media screen and (min-width:1120px) and (max-width:1500px) {
     .container-items:after {
         content: "";
         grid-column: span 3;
@@ -190,7 +242,8 @@
     }
 }
 
-@media screen and (min-width:1900px) {
+@media screen and (min-width:2150px) {
+
     .container-items:after {
         content: "";
         grid-column: span 5;
