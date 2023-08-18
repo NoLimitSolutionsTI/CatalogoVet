@@ -166,7 +166,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width:1500px) {
+@media screen and (min-width:1200) and (max-width:1500px) {
     .container-items:after {
         content: "";
         grid-column: span 3;
