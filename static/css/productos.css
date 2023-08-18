@@ -90,21 +90,14 @@
   .container-items{
     font-family: 'Newsreader';
     margin: auto;
-    width: 90%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 40px;
     grid-auto-rows: min-content;
     justify-items: center;
+    justify-content: center;
     margin-top: 8em;
   }
-
-    /* Centrar la última fila */
-    .container-items:after {
-        content: "";
-        grid-column: span calc(minmax(350px, 1fr)); /* O el número de tarjetas por fila */
-    }
-    
 
 
 
@@ -171,4 +164,27 @@
     color: var(--color2);
     transition: .8s ease;
     cursor: pointer;
+}
+
+
+@media screen and (max-width:450px){
+    .item{
+        width: 80%;
+    }
+
+    .info-product{
+        background-color: var(--color7);
+        padding: 1.4em 1em;
+        display: flex;
+        flex-direction: column;
+        gap: .5em;
+    }
+
+    .item img{    
+        max-width: 100%;
+        height: 240px;
+        border-radius: 10px 10px 0 0;
+        padding: 0em .5em;
+        transition: all .5s;
+    }
 }
