@@ -8,6 +8,10 @@
 }
 
 
+    .main{
+        max-width: 1980px;
+        margin: auto;
+    }
     /* FILTROS */
     .container-filter{ 
         font-family: 'Newsreader';
@@ -218,7 +222,7 @@
 
 
 
-@media screen and (min-width:1120px) and (max-width:1500px) {
+@media screen and (min-width:1120px) and (max-width:1550px) {
     .container-items:after {
         content: "";
         grid-column: span 3;
@@ -230,7 +234,7 @@
     }
 }
 
-@media screen and (min-width:1500px) and (max-width:1900px) {
+@media screen and (min-width:1550px) and (max-width:1900px) {
     .container-items:after {
         content: "";
         grid-column: span 4;
@@ -239,19 +243,6 @@
     .item:nth-last-child(-n+2):nth-child(n+3) {
         grid-column-start: auto;
         grid-column-end: span 2; 
-    }
-}
-
-@media screen and (min-width:2150px) {
-
-    .container-items:after {
-        content: "";
-        grid-column: span 5;
-    }
-    
-    .item:nth-last-child(-n+1):nth-child(n+4) {
-        grid-column-start: auto;
-        grid-column-end: span 1; 
     }
 }
 
