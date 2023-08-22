@@ -24,8 +24,9 @@
 <body class="cuerpo">
 
 
-    <header class="header">
-        <a href="#">
+    <header>
+        <div class="header">        
+            <a href="#">
             <div class="logo-img">
                 <img src="static/images/Logo/Anluvet-logo.png" alt="Anluvet">
 
@@ -34,569 +35,570 @@
                     <p>Siempre a tu servicio</p>
                 </div>
             </div>
-        </a>
+            </a>
+        </div>
     </header>
 
-    <main class="main">
-        <br>
-        <section class="section-p">
-            <form>
-                <div class="input-container">
-                    <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar"
-                        onkeyup="search()">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-            </form>
-
-            <div class="container-filter">
-                <div class="filter-rp">
-                    <p>Filtrar por:</p>
-                    <a class="btn-menu">
-                        <i class="icono-menu fa-solid fa-bars"></i>
-                    </a>
-                </div>
-                <ul class="filter">
-                    <li><a href="#" class="filter-item" category="all">Ver todos</a></li>
-                    <li><a href="#" class="filter-item" category="todas-especies">Todas las especies</a></li>
-                    <li><a href="#" class="filter-item" category="aves">Aves</a></li>
-                    <li><a href="#" class="filter-item" category="lechones">Lechones</a></li>
-                </ul>
-            </div>
-
-            <div class="container-items" id="grid">
-                <div class="item" category="todas-especies">
-                    <img class="img-product" src="static/images/Productos/LiverTonic.jpg" alt="LiverTonic" />
-                    <div class="info-product">
-                        <h2 class="title">Liver Tonic</h2>
-                        <p class="description">Protector hepático</p>
-                        <button class="btn-watch btn-1">Ver más</button>
+    <main>
+        <section class="contenido">
+            <section class="section-p">
+                <form>
+                    <div class="input-container">
+                        <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar"
+                            onkeyup="search()">
+                        <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
+                </form>
+
+                <div class="container-filter">
+                    <div class="filter-rp">
+                        <p>Filtrar por:</p>
+                        <a class="btn-menu">
+                            <i class="icono-menu fa-solid fa-bars"></i>
+                        </a>
+                    </div>
+                    <ul class="filter">
+                        <li><a href="#" class="filter-item" category="all">Ver todos</a></li>
+                        <li><a href="#" class="filter-item" category="todas-especies">Todas las especies</a></li>
+                        <li><a href="#" class="filter-item" category="aves">Aves</a></li>
+                        <li><a href="#" class="filter-item" category="lechones">Lechones</a></li>
+                    </ul>
                 </div>
 
-                <div class="item" category="aves">
-                    <img class="img-product" src="static/images/Productos/Coriocox FM.jpeg" alt="Coriocox FM" />
-                    <div class="info-product">
-                        <h2 class="title">Coriocox FM</h2>
-                        <p class="description">Mejora la salud intestinal</p>
-                        <button class="btn-watch btn-2">Ver más</button>
+                <div class="container-items" id="grid">
+                    <div class="item" category="todas-especies">
+                        <img class="img-product" src="static/images/Productos/LiverTonic.jpg" alt="LiverTonic" />
+                        <div class="info-product">
+                            <h2 class="title">Liver Tonic</h2>
+                            <p class="description">Protector hepático</p>
+                            <button class="btn-watch btn-1">Ver más</button>
+                        </div>
+                    </div>
+
+                    <div class="item" category="aves">
+                        <img class="img-product" src="static/images/Productos/Coriocox FM.jpeg" alt="Coriocox FM" />
+                        <div class="info-product">
+                            <h2 class="title">Coriocox FM</h2>
+                            <p class="description">Mejora la salud intestinal</p>
+                            <button class="btn-watch btn-2">Ver más</button>
+                        </div>
+                    </div>
+
+                    <div class="item" category="aves">
+                        <img class="img-product" src="static/images/Productos/Calphocor.png" alt="Calphocor" />
+                        <div class="info-product">
+                            <h2 class="title">Calphocor</h2>
+                            <p class="description">Mejora de la cáscara del huevo</p>
+                            <button class="btn-watch btn-3">Ver más</button>
+                        </div>
+                    </div>
+
+                    <div class="item" category="aves">
+                        <img class="img-product" src="static/images/Productos/Coriocox L.png" alt="Coriocox" />
+                        <div class="info-product">
+                            <h2 class="title">Coriocox L</h2>
+                            <p class="description">Mejora la salud intestinal</p>
+                            <button class="btn-watch btn-4">Ver más</button>
+                        </div>
+                    </div>
+
+                    <div class="item" category="todas-especies">
+                        <img class="img-product" src="static/images/Productos/Coriofung.png" alt="Coriofung" />
+                        <div class="info-product">
+                            <h2 class="title">Coriofung</h2>
+                            <p class="description">Conservante de alimentos</p>
+                            <button class="btn-watch btn-5">Ver más</button>
+                        </div>
+                    </div>
+
+                    <div class="item" category="todas-especies">
+                        <img class="img-product" src="static/images/Productos/Hepatocor.png" alt="Hepatocor" />
+                        <div class="info-product">
+                            <h2 class="title">Hepatocor</h2>
+                            <p class="description">Protector hepático</p>
+                            <button class="btn-watch btn-6">Ver más</button>
+                        </div>
+                    </div>
+
+                    <div class="item" category="lechones">
+                        <img class="img-product" src="static/images/Productos/Suin Protect.png" alt="Suin Protect" />
+                        <div class="info-product">
+                            <h2 class="title">Suin Protect</h2>
+                            <p class="description">Frena las diarreas</p>
+                            <button class="btn-watch btn-7">Ver más</button>
+                        </div>
+                    </div>
+
+                    <div class="item" category="todas-especies">
+                        <img class="img-product" src="static/images/Productos/Toxicor.png" alt="Toxicor" />
+                        <div class="info-product">
+                            <h2 class="title">Toxicor</h2>
+                            <p class="description">Aglutinante de toxinas</p>
+                            <button class="btn-watch btn-8">Ver más</button>
+                        </div>
+                    </div>
+
+                    <div class="item" category="todas-especies">
+                        <img class="img-product" src="static/images/Productos/Vitasitol.png" alt="Vitasisol" />
+                        <div class="info-product">
+                            <h2 class="title">Vitasisol</h2>
+                            <p class="description">Protector hepático</p>
+                            <button class="btn-watch btn-9">Ver más</button>
+                        </div>
+                    </div>
+
+                    <div class="item" category="todas-especies">
+                        <img class="img-product" src="static/images/Productos/Coriotox.png" alt="Coriocox" />
+                        <div class="info-product">
+                            <h2 class="title">Coriotox</h2>
+                            <p class="description">Secuestrante de microtoxinas</p>
+                            <button class="btn-watch btn-10">Ver más</button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="ficha-detail producto1">
+                <button class="boton-back-detail btnretro-1" >
+                    Retroceder
+                </button>
+                <article class="producto-container-detail">
+                    <figure class="image-figure-detail">
+                        <img src="./static/images/Productos/LiverTonic.jpg" alt="Liver Tonic"
+                            class="image-figure-detail-producto">
+                    </figure>
+                    <div class="producto-detail-text">
+                        <div class="producto-detail-text-name-contain">
+                            <h1 class="producto-detail-text-name">Liver Tonic</h1>
+                        </div>
+                        <div class="producto-detail-text-data">
+                            <span class="producto-detail-text-dataproduct">
+                                <p>
+                                    <b>Especies:</b>
+                                    <span>Todas las especies</span>
+                                </p>
+                                <p>
+                                    <b>Administración:</b>
+                                    Oral
+                                </p>
+                                <p>
+                                    <b>Presentación:</b>
+                                    1L, 5L
+                                </p>
+                                <p>
+                                    <b>Conservación:</b>
+                                    Mantengase en un lugar fresco, seco, bien ventilado.
+                                </p>
+                                <p>
+                                    <a href="mailto:anluvet@anluvet.com.pe" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
+                                    <a href="./static/products/TDS - Corion Liver Tonic (ESP) v2023 (1).pdf"
+                                        target="_blank"><button class="btn-cont-inf">Ficha Técnica</button></a>
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="ficha-detail producto2">
+                <button class="boton-back-detail btnretro-2" >
+                    Retroceder
+                </button>
+                <article class="producto-container-detail">
+                    <figure class="image-figure-detail">
+                        <img src="./static/images/Productos/Coriocox FM.jpeg" alt="Coriocox"
+                            class="image-figure-detail-producto">
+                    </figure>
+                    <div class="producto-detail-text">
+                        <div class="producto-detail-text-name-contain">
+                            <h1 class="producto-detail-text-name">Coriocox FM</h1>
+                        </div>
+                        <div class="producto-detail-text-data">
+                            <span class="producto-detail-text-dataproduct">
+                                <p>
+                                    <b>Especies:</b>
+                                    <span>Aves</span>
+                                </p>
+                                <p>
+                                    <b>Administración:</b>
+                                    Mezclado en el pienzo
+                                </p>
+                                <p>
+                                    <b>Presentación:</b>
+                                    25Kg
+                                </p>
+                                <p>
+                                    <b>Conservación:</b>
+                                    Mantengase en un lugar fresco, seco, bien ventilado.
+                                </p>
+                                <p>
+                                    <a href="mailto:anluvet@anluvet.com.pe" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
+                                    <a href="./static/products/TDS - Corion  Coriocox FM (ESP) 2023.pdf"
+                                        target="_blank"><button class="btn-cont-inf">Ficha Técnica</button></a>
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="ficha-detail producto3">
+                <button class="boton-back-detail btnretro-3" >
+                    Retroceder
+                </button>
+                <article class="producto-container-detail">
+                    <figure class="image-figure-detail">
+                        <img src="./static/images/Productos/Calphocor.png" alt="Calphocor"
+                            class="image-figure-detail-producto">
+                    </figure>
+                    <div class="producto-detail-text">
+                        <div class="producto-detail-text-name-contain">
+                            <h1 class="producto-detail-text-name">Calphocor</h1>
+                        </div>
+                        <div class="producto-detail-text-data">
+                            <span class="producto-detail-text-dataproduct">
+                                <p>
+                                    <b>Especies:</b>
+                                    <span>Aves</span>
+                                </p>
+                                <p>
+                                    <b>Administración:</b>
+                                    Oral, en agua de bebida
+                                </p>
+                                <p>
+                                    <b>Presentación:</b>
+                                    1L, 5L
+                                </p>
+                                <p>
+                                    <b>Conservación:</b>
+                                    Mantengase en un lugar fresco, seco, bien ventilado.
+                                </p>
+                                <p>
+                                    <a href="mailto:anluvet@anluvet.com.pe" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
+                                    <a href="./static/products/TDS - Corion Calphocor (ESP) v2023.pdf"
+                                        target="_blank"><button class="btn-cont-inf">Ficha Técnica</button></a>
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="ficha-detail producto4">
+                <button class="boton-back-detail btnretro-4" >
+                    Retroceder
+                </button>
+                <article class="producto-container-detail">
+                    <figure class="image-figure-detail">
+                        <img src="./static/images/Productos/Coriocox L.png" alt="Coriocox L"
+                            class="image-figure-detail-producto">
+                    </figure>
+                    <div class="producto-detail-text">
+                        <div class="producto-detail-text-name-contain">
+                            <h1 class="producto-detail-text-name">Coriocox L</h1>
+                        </div>
+                        <div class="producto-detail-text-data">
+                            <span class="producto-detail-text-dataproduct">
+                                <p>
+                                    <b>Especies:</b>
+                                    <span>Aves</span>
+                                </p>
+                                <p>
+                                    <b>Administración:</b>
+                                    Oral
+                                </p>
+                                <p>
+                                    <b>Presentación:</b>
+                                    1L, 5L
+                                </p>
+                                <p>
+                                    <b>Conservación:</b>
+                                    Mantengase en un lugar fresco, seco, bien ventilado.
+                                </p>
+                                <p>
+                                    <a href="mailto:anluvet@anluvet.com.pe" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
+                                    <a href="./static/products/TDS - Corion  Coriocox L (ESP) v2023.pdf"
+                                        target="_blank"><button class="btn-cont-inf">Ficha Técnica</button></a>
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="ficha-detail producto5">
+                <button class="boton-back-detail btnretro-5" >
+                    Retroceder
+                </button>
+                <article class="producto-container-detail">
+                    <figure class="image-figure-detail">
+                        <img src="./static/images/Productos/Coriofung.png" alt="Coriofung"
+                            class="image-figure-detail-producto">
+                    </figure>
+                    <div class="producto-detail-text">
+                        <div class="producto-detail-text-name-contain">
+                            <h1 class="producto-detail-text-name">Coriofung</h1>
+                        </div>
+                        <div class="producto-detail-text-data">
+                            <span class="producto-detail-text-dataproduct">
+                                <p>
+                                    <b>Especies:</b>
+                                    <span>Todas las especies</span>
+                                </p>
+                                <p>
+                                    <b>Administración:</b>
+                                    Oral, mezcla en la alimentación
+                                </p>
+                                <p>
+                                    <b>Presentación:</b>
+                                    25Kg
+                                </p>
+                                <p>
+                                    <b>Conservación:</b>
+                                    Mantengase en un lugar seco, limpio, bien ventilado.
+                                </p>
+                                <p>
+                                    <a href="mailto:anluvet@anluvet.com.pe" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
+                                    <a href="./static/products/TDS - Corion Coriofung (ESP)  2023.pdf"
+                                        target="_blank"><button class="btn-cont-inf">Ficha Técnica</button></a>
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="ficha-detail producto6">
+                <button class="boton-back-detail btnretro-6" >
+                    Retroceder
+                </button>
+                <article class="producto-container-detail">
+                    <figure class="image-figure-detail">
+                        <img src="./static/images/Productos/Hepatocor.png" alt="Hepatocor"
+                            class="image-figure-detail-producto">
+                    </figure>
+                    <div class="producto-detail-text">
+                        <div class="producto-detail-text-name-contain">
+                            <h1 class="producto-detail-text-name">Hepatocor</h1>
+                        </div>
+                        <div class="producto-detail-text-data">
+                            <span class="producto-detail-text-dataproduct">
+                                <p>
+                                    <b>Especies:</b>
+                                    <span>Todas las especies</span>
+                                </p>
+                                <p>
+                                    <b>Administración:</b>
+                                    Oral, en agua de bebida
+                                </p>
+                                <p>
+                                    <b>Presentación:</b>
+                                    1L, 5L
+                                </p>
+                                <p>
+                                    <b>Conservación:</b>
+                                    Mantengase en un lugar fresco, seco, bien ventilado.
+                                </p>
+                                <p>
+                                    <a href="mailto:anluvet@anluvet.com.pe" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
+                                    <a href="./static/products/TDS-Corion Hepatocor (ESP) v2023.pdf" target="_blank"><button
+                                            class="btn-cont-inf">Ficha Técnica</button></a>
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="ficha-detail producto7">
+                <button class="boton-back-detail btnretro-7" >
+                    Retroceder
+                </button>
+                <article class="producto-container-detail">
+                    <figure class="image-figure-detail">
+                        <img src="./static/images/Productos/Suin Protect.png" alt="Suin Protect"
+                            class="image-figure-detail-producto">
+                    </figure>
+                    <div class="producto-detail-text">
+                        <div class="producto-detail-text-name-contain">
+                            <h1 class="producto-detail-text-name">Suin Protect</h1>
+                        </div>
+                        <div class="producto-detail-text-data">
+                            <span class="producto-detail-text-dataproduct">
+                                <p>
+                                    <b>Especies:</b>
+                                    <span>Lechones</span>
+                                </p>
+                                <p>
+                                    <b>Administración:</b>
+                                    Oral, en bebida o leche
+                                </p>
+                                <p>
+                                    <b>Presentación:</b>
+                                    Caja de 1Kg (10 x 100g)
+                                </p>
+                                <p>
+                                    <b>Conservación:</b>
+                                    Mantengase en un lugar fresco, seco, bien ventilado.
+                                </p>
+                                <p>
+                                    <a href="mailto:anluvet@anluvet.com.pe" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
+                                    <a href="./static/products/TDS- Corion Suin Protect (ESP) v2023.pdf"
+                                        target="_blank"><button class="btn-cont-inf">Ficha Técnica</button></a>
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="ficha-detail producto8">
+                <button class="boton-back-detail btnretro-8" >
+                    Retroceder
+                </button>
+                <article class="producto-container-detail">
+                    <figure class="image-figure-detail">
+                        <img src="./static/images/Productos/Toxicor.png" alt="Toxicor" class="image-figure-detail-producto">
+                    </figure>
+                    <div class="producto-detail-text">
+                        <div class="producto-detail-text-name-contain">
+                            <h1 class="producto-detail-text-name">Toxicor</h1>
+                        </div>
+                        <div class="producto-detail-text-data">
+                            <span class="producto-detail-text-dataproduct">
+                                <p>
+                                    <b>Especies:</b>
+                                    <span>Todas las especies</span>
+                                </p>
+                                <p>
+                                    <b>Administración:</b>
+                                    Oral, mezcla homogenea
+                                </p>
+                                <p>
+                                    <b>Presentación:</b>
+                                    25Kg
+                                </p>
+                                <p>
+                                    <b>Conservación:</b>
+                                    Mantengase en un lugar seco, limpio, bien ventilado.
+                                </p>
+                                <p>
+                                    <a href="mailto:anluvet@anluvet.com.pe" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
+                                    <a href="./static/products/TDS - Corion Toxicor (ESP) v2023.pdf" target="_blank"><button
+                                            class="btn-cont-inf">Ficha Técnica</button></a>
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="ficha-detail producto9">
+                <button class="boton-back-detail btnretro-9" >
+                    Retroceder
+                </button>
+                <article class="producto-container-detail">
+                    <figure class="image-figure-detail">
+                        <img src="./static/images/Productos/Vitasitol.png" alt="Vitasisol"
+                            class="image-figure-detail-producto">
+                    </figure>
+                    <div class="producto-detail-text">
+                        <div class="producto-detail-text-name-contain">
+                            <h1 class="producto-detail-text-name">Vitasisol</h1>
+                        </div>
+                        <div class="producto-detail-text-data">
+                            <span class="producto-detail-text-dataproduct">
+                                <p>
+                                    <b>Especies:</b>
+                                    <span>Todas las especies</span>
+                                </p>
+                                <p>
+                                    <b>Administración:</b>
+                                    Oral, en agua de bebida
+                                </p>
+                                <p>
+                                    <b>Presentación:</b>
+                                    250mL, 1L, 5L
+                                </p>
+                                <p>
+                                    <b>Conservación:</b>
+                                    Mantengase en un lugar fresco, seco, bien ventilado.
+                                </p>
+                                <p>
+                                    <a href="mailto:anluvet@anluvet.com.pe" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
+                                    <a href="./static/products/TDS - Corion  Vitasitol (ESP) v2023.pdf"
+                                        target="_blank"><button class="btn-cont-inf">Ficha Técnica</button></a>
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="ficha-detail producto10">
+                <button class="boton-back-detail btnretro-10">
+                    Retroceder
+                </button>
+                <article class="producto-container-detail">
+                    <figure class="image-figure-detail">
+                        <img src="./static/images/Productos/Coriotox.png" alt="Coriocox"
+                            class="image-figure-detail-producto">
+                    </figure>
+                    <div class="producto-detail-text">
+                        <div class="producto-detail-text-name-contain">
+                            <h1 class="producto-detail-text-name">Coriotox</h1>
+                        </div>
+                        <div class="producto-detail-text-data">
+                            <span class="producto-detail-text-dataproduct">
+                                <p>
+                                    <b>Especies:</b>
+                                    <span>Todas las especies</span>
+                                </p>
+                                <p>
+                                    <b>Administración:</b>
+                                    Oral, mezcla homogenea
+                                </p>
+                                <p>
+                                    <b>Presentación:</b>
+                                    25Kg
+                                </p>
+                                <p>
+                                    <b>Conservación:</b>
+                                    Mantengase en un lugar seco, limpio, bien ventilado.
+                                </p>
+                                <p>
+                                    <a href="mailto:anluvet@anluvet.com.pe" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
+                                    <a href="./static/products/TDS - Corion Coriotox (ESP) 2023.pdf" target="_blank"><button
+                                            class="btn-cont-inf">Ficha Técnica</button></a>
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+
+            <section class="about-container">
+                <div class="about-text">
+                    <h2>¿Quienes Somos?</h2>
+                    <div class="about-p">
+                        <div class="about-txt">
+                            <p>Somos una empresa peruana especializada en la distribución y comercialización de insumos de
+                                alto valor para nuestros clientes en la Industria Pecuaria. <br>
+                                Nuestra Misión es incrementar el valor de nuestros clientes, ofreciéndoles alternativas
+                                innovadoras que le permitan generar eficiencias y obtener alta rentabilidad en su negocio,
+                                con el mejor servicio. <br>
+                                Nuestra Visión es ser socios estratégicos de nuestros clientes.</p>
+                        </div>
+                        <div class="about-img">
+                            <img src="./static/images/Logo/Anluvet.png" alt="Anluvet">
+                        </div>
                     </div>
                 </div>
-
-                <div class="item" category="aves">
-                    <img class="img-product" src="static/images/Productos/Calphocor.png" alt="Calphocor" />
-                    <div class="info-product">
-                        <h2 class="title">Calphocor</h2>
-                        <p class="description">Mejora de la cáscara del huevo</p>
-                        <button class="btn-watch btn-3">Ver más</button>
-                    </div>
-                </div>
-
-                <div class="item" category="aves">
-                    <img class="img-product" src="static/images/Productos/Coriocox L.png" alt="Coriocox" />
-                    <div class="info-product">
-                        <h2 class="title">Coriocox L</h2>
-                        <p class="description">Mejora la salud intestinal</p>
-                        <button class="btn-watch btn-4">Ver más</button>
-                    </div>
-                </div>
-
-                <div class="item" category="todas-especies">
-                    <img class="img-product" src="static/images/Productos/Coriofung.png" alt="Coriofung" />
-                    <div class="info-product">
-                        <h2 class="title">Coriofung</h2>
-                        <p class="description">Conservante de alimentos</p>
-                        <button class="btn-watch btn-5">Ver más</button>
-                    </div>
-                </div>
-
-                <div class="item" category="todas-especies">
-                    <img class="img-product" src="static/images/Productos/Hepatocor.png" alt="Hepatocor" />
-                    <div class="info-product">
-                        <h2 class="title">Hepatocor</h2>
-                        <p class="description">Protector hepático</p>
-                        <button class="btn-watch btn-6">Ver más</button>
-                    </div>
-                </div>
-
-                <div class="item" category="lechones">
-                    <img class="img-product" src="static/images/Productos/Suin Protect.png" alt="Suin Protect" />
-                    <div class="info-product">
-                        <h2 class="title">Suin Protect</h2>
-                        <p class="description">Frena las diarreas</p>
-                        <button class="btn-watch btn-7">Ver más</button>
-                    </div>
-                </div>
-
-                <div class="item" category="todas-especies">
-                    <img class="img-product" src="static/images/Productos/Toxicor.png" alt="Toxicor" />
-                    <div class="info-product">
-                        <h2 class="title">Toxicor</h2>
-                        <p class="description">Aglutinante de toxinas</p>
-                        <button class="btn-watch btn-8">Ver más</button>
-                    </div>
-                </div>
-
-                <div class="item" category="todas-especies">
-                    <img class="img-product" src="static/images/Productos/Vitasitol.png" alt="Vitasisol" />
-                    <div class="info-product">
-                        <h2 class="title">Vitasisol</h2>
-                        <p class="description">Protector hepático</p>
-                        <button class="btn-watch btn-9">Ver más</button>
-                    </div>
-                </div>
-
-                <div class="item" category="todas-especies">
-                    <img class="img-product" src="static/images/Productos/Coriotox.png" alt="Coriocox" />
-                    <div class="info-product">
-                        <h2 class="title">Coriotox</h2>
-                        <p class="description">Secuestrante de microtoxinas</p>
-                        <button class="btn-watch btn-10">Ver más</button>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <section class="ficha-detail producto1">
-            <button class="boton-back-detail btnretro-1" >
-                Retroceder
-            </button>
-            <article class="producto-container-detail">
-                <figure class="image-figure-detail">
-                    <img src="./static/images/Productos/LiverTonic.jpg" alt="Liver Tonic"
-                        class="image-figure-detail-producto">
-                </figure>
-                <div class="producto-detail-text">
-                    <div class="producto-detail-text-name-contain">
-                        <h1 class="producto-detail-text-name">Liver Tonic</h1>
-                    </div>
-                    <div class="producto-detail-text-data">
-                        <span class="producto-detail-text-dataproduct">
-                            <p>
-                                <b>Especies:</b>
-                                <span>Todas las especies</span>
-                            </p>
-                            <p>
-                                <b>Administración:</b>
-                                Oral
-                            </p>
-                            <p>
-                                <b>Presentación:</b>
-                                1L, 5L
-                            </p>
-                            <p>
-                                <b>Conservación:</b>
-                                Mantengase en un lugar fresco, seco, bien ventilado.
-                            </p>
-                            <p>
-                                <a href="mailto:anluvet@anluvet.com.pe" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
-                                <a href="./static/products/TDS - Corion Liver Tonic (ESP) v2023 (1).pdf"
-                                    target="_blank"><button class="btn-cont-inf">Ficha Técnica</button></a>
-                            </p>
-                        </span>
-                    </div>
-                </div>
-            </article>
-        </section>
-
-        <section class="ficha-detail producto2">
-            <button class="boton-back-detail btnretro-2" >
-                Retroceder
-            </button>
-            <article class="producto-container-detail">
-                <figure class="image-figure-detail">
-                    <img src="./static/images/Productos/Coriocox FM.jpeg" alt="Coriocox"
-                        class="image-figure-detail-producto">
-                </figure>
-                <div class="producto-detail-text">
-                    <div class="producto-detail-text-name-contain">
-                        <h1 class="producto-detail-text-name">Coriocox FM</h1>
-                    </div>
-                    <div class="producto-detail-text-data">
-                        <span class="producto-detail-text-dataproduct">
-                            <p>
-                                <b>Especies:</b>
-                                <span>Aves</span>
-                            </p>
-                            <p>
-                                <b>Administración:</b>
-                                Mezclado en el pienzo
-                            </p>
-                            <p>
-                                <b>Presentación:</b>
-                                25Kg
-                            </p>
-                            <p>
-                                <b>Conservación:</b>
-                                Mantengase en un lugar fresco, seco, bien ventilado.
-                            </p>
-                            <p>
-                                <a href="mailto:anluvet@anluvet.com.pe" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
-                                <a href="./static/products/TDS - Corion  Coriocox FM (ESP) 2023.pdf"
-                                    target="_blank"><button class="btn-cont-inf">Ficha Técnica</button></a>
-                            </p>
-                        </span>
-                    </div>
-                </div>
-            </article>
-        </section>
-
-        <section class="ficha-detail producto3">
-            <button class="boton-back-detail btnretro-3" >
-                Retroceder
-            </button>
-            <article class="producto-container-detail">
-                <figure class="image-figure-detail">
-                    <img src="./static/images/Productos/Calphocor.png" alt="Calphocor"
-                        class="image-figure-detail-producto">
-                </figure>
-                <div class="producto-detail-text">
-                    <div class="producto-detail-text-name-contain">
-                        <h1 class="producto-detail-text-name">Calphocor</h1>
-                    </div>
-                    <div class="producto-detail-text-data">
-                        <span class="producto-detail-text-dataproduct">
-                            <p>
-                                <b>Especies:</b>
-                                <span>Aves</span>
-                            </p>
-                            <p>
-                                <b>Administración:</b>
-                                Oral, en agua de bebida
-                            </p>
-                            <p>
-                                <b>Presentación:</b>
-                                1L, 5L
-                            </p>
-                            <p>
-                                <b>Conservación:</b>
-                                Mantengase en un lugar fresco, seco, bien ventilado.
-                            </p>
-                            <p>
-                                <a href="mailto:anluvet@anluvet.com.pe" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
-                                <a href="./static/products/TDS - Corion Calphocor (ESP) v2023.pdf"
-                                    target="_blank"><button class="btn-cont-inf">Ficha Técnica</button></a>
-                            </p>
-                        </span>
-                    </div>
-                </div>
-            </article>
-        </section>
-
-        <section class="ficha-detail producto4">
-            <button class="boton-back-detail btnretro-4" >
-                Retroceder
-            </button>
-            <article class="producto-container-detail">
-                <figure class="image-figure-detail">
-                    <img src="./static/images/Productos/Coriocox L.png" alt="Coriocox L"
-                        class="image-figure-detail-producto">
-                </figure>
-                <div class="producto-detail-text">
-                    <div class="producto-detail-text-name-contain">
-                        <h1 class="producto-detail-text-name">Coriocox L</h1>
-                    </div>
-                    <div class="producto-detail-text-data">
-                        <span class="producto-detail-text-dataproduct">
-                            <p>
-                                <b>Especies:</b>
-                                <span>Aves</span>
-                            </p>
-                            <p>
-                                <b>Administración:</b>
-                                Oral
-                            </p>
-                            <p>
-                                <b>Presentación:</b>
-                                1L, 5L
-                            </p>
-                            <p>
-                                <b>Conservación:</b>
-                                Mantengase en un lugar fresco, seco, bien ventilado.
-                            </p>
-                            <p>
-                                <a href="mailto:anluvet@anluvet.com.pe" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
-                                <a href="./static/products/TDS - Corion  Coriocox L (ESP) v2023.pdf"
-                                    target="_blank"><button class="btn-cont-inf">Ficha Técnica</button></a>
-                            </p>
-                        </span>
-                    </div>
-                </div>
-            </article>
-        </section>
-
-        <section class="ficha-detail producto5">
-            <button class="boton-back-detail btnretro-5" >
-                Retroceder
-            </button>
-            <article class="producto-container-detail">
-                <figure class="image-figure-detail">
-                    <img src="./static/images/Productos/Coriofung.png" alt="Coriofung"
-                        class="image-figure-detail-producto">
-                </figure>
-                <div class="producto-detail-text">
-                    <div class="producto-detail-text-name-contain">
-                        <h1 class="producto-detail-text-name">Coriofung</h1>
-                    </div>
-                    <div class="producto-detail-text-data">
-                        <span class="producto-detail-text-dataproduct">
-                            <p>
-                                <b>Especies:</b>
-                                <span>Todas las especies</span>
-                            </p>
-                            <p>
-                                <b>Administración:</b>
-                                Oral, mezcla en la alimentación
-                            </p>
-                            <p>
-                                <b>Presentación:</b>
-                                25Kg
-                            </p>
-                            <p>
-                                <b>Conservación:</b>
-                                Mantengase en un lugar seco, limpio, bien ventilado.
-                            </p>
-                            <p>
-                                <a href="mailto:anluvet@anluvet.com.pe" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
-                                <a href="./static/products/TDS - Corion Coriofung (ESP)  2023.pdf"
-                                    target="_blank"><button class="btn-cont-inf">Ficha Técnica</button></a>
-                            </p>
-                        </span>
-                    </div>
-                </div>
-            </article>
-        </section>
-
-        <section class="ficha-detail producto6">
-            <button class="boton-back-detail btnretro-6" >
-                Retroceder
-            </button>
-            <article class="producto-container-detail">
-                <figure class="image-figure-detail">
-                    <img src="./static/images/Productos/Hepatocor.png" alt="Hepatocor"
-                        class="image-figure-detail-producto">
-                </figure>
-                <div class="producto-detail-text">
-                    <div class="producto-detail-text-name-contain">
-                        <h1 class="producto-detail-text-name">Hepatocor</h1>
-                    </div>
-                    <div class="producto-detail-text-data">
-                        <span class="producto-detail-text-dataproduct">
-                            <p>
-                                <b>Especies:</b>
-                                <span>Todas las especies</span>
-                            </p>
-                            <p>
-                                <b>Administración:</b>
-                                Oral, en agua de bebida
-                            </p>
-                            <p>
-                                <b>Presentación:</b>
-                                1L, 5L
-                            </p>
-                            <p>
-                                <b>Conservación:</b>
-                                Mantengase en un lugar fresco, seco, bien ventilado.
-                            </p>
-                            <p>
-                                <a href="mailto:anluvet@anluvet.com.pe" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
-                                <a href="./static/products/TDS-Corion Hepatocor (ESP) v2023.pdf" target="_blank"><button
-                                        class="btn-cont-inf">Ficha Técnica</button></a>
-                            </p>
-                        </span>
-                    </div>
-                </div>
-            </article>
-        </section>
-
-        <section class="ficha-detail producto7">
-            <button class="boton-back-detail btnretro-7" >
-                Retroceder
-            </button>
-            <article class="producto-container-detail">
-                <figure class="image-figure-detail">
-                    <img src="./static/images/Productos/Suin Protect.png" alt="Suin Protect"
-                        class="image-figure-detail-producto">
-                </figure>
-                <div class="producto-detail-text">
-                    <div class="producto-detail-text-name-contain">
-                        <h1 class="producto-detail-text-name">Suin Protect</h1>
-                    </div>
-                    <div class="producto-detail-text-data">
-                        <span class="producto-detail-text-dataproduct">
-                            <p>
-                                <b>Especies:</b>
-                                <span>Lechones</span>
-                            </p>
-                            <p>
-                                <b>Administración:</b>
-                                Oral, en bebida o leche
-                            </p>
-                            <p>
-                                <b>Presentación:</b>
-                                Caja de 1Kg (10 x 100g)
-                            </p>
-                            <p>
-                                <b>Conservación:</b>
-                                Mantengase en un lugar fresco, seco, bien ventilado.
-                            </p>
-                            <p>
-                                <a href="mailto:anluvet@anluvet.com.pe" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
-                                <a href="./static/products/TDS- Corion Suin Protect (ESP) v2023.pdf"
-                                    target="_blank"><button class="btn-cont-inf">Ficha Técnica</button></a>
-                            </p>
-                        </span>
-                    </div>
-                </div>
-            </article>
-        </section>
-
-        <section class="ficha-detail producto8">
-            <button class="boton-back-detail btnretro-8" >
-                Retroceder
-            </button>
-            <article class="producto-container-detail">
-                <figure class="image-figure-detail">
-                    <img src="./static/images/Productos/Toxicor.png" alt="Toxicor" class="image-figure-detail-producto">
-                </figure>
-                <div class="producto-detail-text">
-                    <div class="producto-detail-text-name-contain">
-                        <h1 class="producto-detail-text-name">Toxicor</h1>
-                    </div>
-                    <div class="producto-detail-text-data">
-                        <span class="producto-detail-text-dataproduct">
-                            <p>
-                                <b>Especies:</b>
-                                <span>Todas las especies</span>
-                            </p>
-                            <p>
-                                <b>Administración:</b>
-                                Oral, mezcla homogenea
-                            </p>
-                            <p>
-                                <b>Presentación:</b>
-                                25Kg
-                            </p>
-                            <p>
-                                <b>Conservación:</b>
-                                Mantengase en un lugar seco, limpio, bien ventilado.
-                            </p>
-                            <p>
-                                <a href="mailto:anluvet@anluvet.com.pe" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
-                                <a href="./static/products/TDS - Corion Toxicor (ESP) v2023.pdf" target="_blank"><button
-                                        class="btn-cont-inf">Ficha Técnica</button></a>
-                            </p>
-                        </span>
-                    </div>
-                </div>
-            </article>
-        </section>
-
-        <section class="ficha-detail producto9">
-            <button class="boton-back-detail btnretro-9" >
-                Retroceder
-            </button>
-            <article class="producto-container-detail">
-                <figure class="image-figure-detail">
-                    <img src="./static/images/Productos/Vitasitol.png" alt="Vitasisol"
-                        class="image-figure-detail-producto">
-                </figure>
-                <div class="producto-detail-text">
-                    <div class="producto-detail-text-name-contain">
-                        <h1 class="producto-detail-text-name">Vitasisol</h1>
-                    </div>
-                    <div class="producto-detail-text-data">
-                        <span class="producto-detail-text-dataproduct">
-                            <p>
-                                <b>Especies:</b>
-                                <span>Todas las especies</span>
-                            </p>
-                            <p>
-                                <b>Administración:</b>
-                                Oral, en agua de bebida
-                            </p>
-                            <p>
-                                <b>Presentación:</b>
-                                250mL, 1L, 5L
-                            </p>
-                            <p>
-                                <b>Conservación:</b>
-                                Mantengase en un lugar fresco, seco, bien ventilado.
-                            </p>
-                            <p>
-                                <a href="mailto:anluvet@anluvet.com.pe" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
-                                <a href="./static/products/TDS - Corion  Vitasitol (ESP) v2023.pdf"
-                                    target="_blank"><button class="btn-cont-inf">Ficha Técnica</button></a>
-                            </p>
-                        </span>
-                    </div>
-                </div>
-            </article>
-        </section>
-
-        <section class="ficha-detail producto10">
-            <button class="boton-back-detail btnretro-10">
-                Retroceder
-            </button>
-            <article class="producto-container-detail">
-                <figure class="image-figure-detail">
-                    <img src="./static/images/Productos/Coriotox.png" alt="Coriocox"
-                        class="image-figure-detail-producto">
-                </figure>
-                <div class="producto-detail-text">
-                    <div class="producto-detail-text-name-contain">
-                        <h1 class="producto-detail-text-name">Coriotox</h1>
-                    </div>
-                    <div class="producto-detail-text-data">
-                        <span class="producto-detail-text-dataproduct">
-                            <p>
-                                <b>Especies:</b>
-                                <span>Todas las especies</span>
-                            </p>
-                            <p>
-                                <b>Administración:</b>
-                                Oral, mezcla homogenea
-                            </p>
-                            <p>
-                                <b>Presentación:</b>
-                                25Kg
-                            </p>
-                            <p>
-                                <b>Conservación:</b>
-                                Mantengase en un lugar seco, limpio, bien ventilado.
-                            </p>
-                            <p>
-                                <a href="mailto:anluvet@anluvet.com.pe" target="_blank"><button class="btn-cont-inf">Contáctanos</button></a>
-                                <a href="./static/products/TDS - Corion Coriotox (ESP) 2023.pdf" target="_blank"><button
-                                        class="btn-cont-inf">Ficha Técnica</button></a>
-                            </p>
-                        </span>
-                    </div>
-                </div>
-            </article>
-        </section>
-
-
-        <section class="about-container">
-            <div class="about-text">
-                <h2>¿Quienes Somos?</h2>
-                <div class="about-p">
-                    <div class="about-txt">
-                        <p>Somos una empresa peruana especializada en la distribución y comercialización de insumos de
-                            alto valor para nuestros clientes en la Industria Pecuaria. <br>
-                            Nuestra Misión es incrementar el valor de nuestros clientes, ofreciéndoles alternativas
-                            innovadoras que le permitan generar eficiencias y obtener alta rentabilidad en su negocio,
-                            con el mejor servicio. <br>
-                            Nuestra Visión es ser socios estratégicos de nuestros clientes.</p>
-                    </div>
-                    <div class="about-img">
-                        <img src="./static/images/Logo/Anluvet.png" alt="Anluvet">
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
+            </section>
+        </main>
+    </section>
     <footer class="footer-container">
         <div class="footer">
             <p>Importadores y Distribuidores oficiales de

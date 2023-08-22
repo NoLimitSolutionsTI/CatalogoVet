@@ -1,7 +1,8 @@
 
 
-header{
+.header{
     max-width: 1980px;
+    margin: auto;
     align-items: center;
     justify-content: center;
     display: flex;

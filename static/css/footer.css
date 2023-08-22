@@ -2,17 +2,16 @@
 body {
     margin: 0;
     padding: 0;
-    justify-content: center;
     display: grid;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
 }
 
 
-footer{
-    max-width: 1980px;
-}
+
 .footer-container{
+    max-width: 1980px;
+    margin: auto;
     margin-top: 4em;
     width: 100%;
     background: #9EC02A;

@@ -8,8 +8,9 @@
 }
 
 
-    .main{
+    .contenido{
         max-width: 1980px;
+        margin: auto;
     }
     /* FILTROS */
     .container-filter{ 
