@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnback = document.querySelector('.btnretro-1');
     const secprod= document.querySelector('.section-p');
     const about= document.querySelector('.about-container');
-    const main = document.querySelector('.contenido');
+    const main = document.querySelector('.main');
 
     btnWatchList.forEach(btnWatch => {
         btnWatch.addEventListener('click', function() {
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnback = document.querySelector('.btnretro-2');
     const secprod= document.querySelector('.section-p');
     const about= document.querySelector('.about-container');
-    const main = document.querySelector('.contenido');
+    const main = document.querySelector('.main');
 
     btnWatchList.forEach(btnWatch => {
         btnWatch.addEventListener('click', function() {
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnback = document.querySelector('.btnretro-3');
     const secprod= document.querySelector('.section-p');
     const about= document.querySelector('.about-container');
-    const main = document.querySelector('.contenido');
+    const main = document.querySelector('.main');
 
     btnWatchList.forEach(btnWatch => {
         btnWatch.addEventListener('click', function() {
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnback = document.querySelector('.btnretro-4');
     const secprod= document.querySelector('.section-p');
     const about= document.querySelector('.about-container');
-    const main = document.querySelector('.contenido');
+    const main = document.querySelector('.main');
 
     btnWatchList.forEach(btnWatch => {
         btnWatch.addEventListener('click', function() {
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnback = document.querySelector('.btnretro-5');
     const secprod= document.querySelector('.section-p');
     const about= document.querySelector('.about-container');
-    const main = document.querySelector('.contenido');
+    const main = document.querySelector('.main');
 
     btnWatchList.forEach(btnWatch => {
         btnWatch.addEventListener('click', function() {
@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnback = document.querySelector('.btnretro-6');
     const secprod= document.querySelector('.section-p');
     const about= document.querySelector('.about-container');
-    const main = document.querySelector('.contenido');
+    const main = document.querySelector('.main');
 
     btnWatchList.forEach(btnWatch => {
         btnWatch.addEventListener('click', function() {
@@ -168,7 +168,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnback = document.querySelector('.btnretro-7');
     const secprod= document.querySelector('.section-p');
     const about= document.querySelector('.about-container');
-    const main = document.querySelector('.contenido');
+    const main = document.querySelector('.main');
 
     btnWatchList.forEach(btnWatch => {
         btnWatch.addEventListener('click', function() {
@@ -195,7 +195,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnback = document.querySelector('.btnretro-8');
     const secprod= document.querySelector('.section-p');
     const about= document.querySelector('.about-container');
-    const main = document.querySelector('.contenido');
+    const main = document.querySelector('.main');
 
     btnWatchList.forEach(btnWatch => {
         btnWatch.addEventListener('click', function() {
@@ -222,7 +222,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnback = document.querySelector('.btnretro-9');
     const secprod= document.querySelector('.section-p');
     const about= document.querySelector('.about-container');
-    const main = document.querySelector('.contenido');
+    const main = document.querySelector('.main');
 
     btnWatchList.forEach(btnWatch => {
         btnWatch.addEventListener('click', function() {
@@ -249,7 +249,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnback = document.querySelector('.btnretro-10');
     const secprod= document.querySelector('.section-p');
     const about= document.querySelector('.about-container');
-    const main = document.querySelector('.contenido');
+    const main = document.querySelector('.main');
 
     btnWatchList.forEach(btnWatch => {
         btnWatch.addEventListener('click', function() {
