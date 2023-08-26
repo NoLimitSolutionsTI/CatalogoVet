@@ -57,3 +57,14 @@ header .logo-img .title p{
 .green{
     color: #01CA00;
 }
+
+@media screen and (max-width:730px) {
+    .header .logo-img{
+        display: grid;
+        margin-bottom: 2em;
+    }
+    
+    header .logo-img .title h1{
+        margin: auto;
+    }
+}

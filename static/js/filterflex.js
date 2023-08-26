@@ -13,7 +13,7 @@ $(function() {
         btnMenu = $('.btn-menu'),
         icono = $('.btn-menu .icono-menu');
 
-    if (ancho < 720) {
+    if (ancho < 950) {
         filter.hide(); // el hide sirve para esconder los elementos
         icono.addClass('fa-bars');
     }
@@ -27,7 +27,7 @@ $(function() {
     });
 
     $(window).on('resize', function() {
-        if ($(this).width() > 720) {
+        if ($(this).width() > 950) {
             filter.show();
             icono.addClass('fa-times');
             icono.removeClass('fa-bars');
