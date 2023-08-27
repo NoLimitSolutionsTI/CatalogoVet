@@ -49,7 +49,7 @@ body {
 .des img{
     height: 1.7em;
     width: auto;
-    padding: 0;
+    padding: .15em;
 }
 @media screen and (max-width:855px){
     .footer{
